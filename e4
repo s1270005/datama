@@ -24,8 +24,8 @@ int c[3]={rand(),rand(),rand()};
     }
   }
   printf("Heads: %d,Tails:%d\n",a,b);
-  if(a>b) { printf("You won");}
-  if(b>a) { printf("You lost");}
+  if(a>b) { printf("%s won",str);}
+  if(b>a) { printf("%s lost",str);}
 
   return 0;
 }
