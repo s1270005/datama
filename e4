@@ -5,8 +5,13 @@
 int main (){
   int i;
   int n;
+  
   int a,b;
   
+  str name[8];
+  printf("Who are you?\n");
+  scanf("%s", str);
+  printf("Hello,%s!\n",str);
   printf("Tossing a coin...\n");
   srand(time(NULL));
 int c[3]={rand(),rand(),rand()};
